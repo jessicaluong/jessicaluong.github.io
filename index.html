@@ -33,7 +33,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <div class="container-fluid overflow-hidden">
             <div class="row buffer py-1 py-sm-3 py-md-5"></div>
 
@@ -63,7 +63,7 @@
 
                 <div class="col-sm-1 col-md-2 col-lg-3"></div>
                 <div class="col-sm-10 col-md-8 col-lg-6">
-                    <h5 id="education">Education</h5> 
+                    <h5 id="education">Education</h5>
                     <p>Below are some of the courses I have taken/am taking:</p>
                     <h6>SFU - Second Degree in Computing Science</h6>
                     <span class="badge">Data Structures and Algorithms</span>
@@ -85,11 +85,11 @@
 
                 <div class="col-sm-1 col-md-2 col-lg-3"></div>
                 <div class="col-sm-10 col-md-8 col-lg-6">
-                    <h5 id="projects">Projects</h5>      
+                    <h5 id="projects">Projects</h5>
                     <p></p>
                     <p>
                         <span class="badge link" role="button" data-bs-toggle="modal" data-bs-target="#chessModal">Chess Game <i class="bi bi-link-45deg"></i></span>
-                    </p> 
+                    </p>
                     <div class="modal fade" id="chessModal" tabindex="-1" aria-labelledby="chessTitle" aria-hidden="true">
                         <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
@@ -111,14 +111,19 @@
                                     </p>
                                     <br>
                                     <h5 class="modal-title" id="chessTitle">Development</h5>
-                                    <p>This chess game was built on Eclipse IDE using Java object-oriented programming. Unit tests were written for every class to minimize bugs. The GUI was implemented using Java Swing. Two special moves that will be added in the future are en passant and castling.</p>
+                                    <p>This chess game was built on Eclipse IDE using Java object-oriented programming. Unit tests were written for every class to minimize bugs. The GUI was implemented using Java Swing.</p>
                                     <br>
                                     <h5 class="modal-title" id="chessTitle">Features</h5>
                                     <ul>
                                         <li>Swap turns between two players</li>
-                                        <li>Prevents illegal moves, such as jumping over other pieces or capturing your own pieces</li>
-                                        <li>Uses move generation and move validation to detect a check and checkmate</li>
+                                        <li>Prevents illegal moves, such as:
+                                            <ul>
+                                                <li>Jumping over other pieces</li>
+                                                <li>Capturing another piece of the same color</li>
+                                                <li>Moving into check</li>
+                                            </ul>
                                         <li>Promotes pawn when it reaches the end of the board</li>
+                                        <li>Detects a checkmate</li>
                                     </ul>
                                     <p class="center">
                                         <div class="row">
@@ -162,13 +167,13 @@
                 </div>
                 <div class="col-sm-1 col-md-2 col-lg-3"></div>
 
-            </div> 
+            </div>
 
             <div class="row buffer py-1 py-sm-3 py-md-5"></div>
         </div>
-   
+
         <footer class="text-center">
-            <div class= "text-center p-3"> 
+            <div class= "text-center p-3">
                 &#169; 2022 Jessica Luong
             </div>
         </footer>
