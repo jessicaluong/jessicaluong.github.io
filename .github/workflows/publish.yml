@@ -30,7 +30,9 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npm run build && mkdir -p out
+        run: |
+            npm run build
+            cp -R .next/* out/
 
       - name: List Build Output
         run: ls -al out
