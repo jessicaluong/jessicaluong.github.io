@@ -11,7 +11,7 @@ export default function Home() {
           <div className="rounded-full overflow-hidden w-40 h-40 mx-auto">
             <Image
               className="rounded-lg shadow-md"
-              src="/photo.png"
+              src="./photo.png"
               alt="Me"
               width={160}
               height={160}
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-5">
           <a className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64" href="https://github.com/jessicaluong/CMPT419-Project">
             <Image
-              src="/gesture_genius.png"
+              src="./gesture_genius.png"
               alt="Gesture Genius Image"
               fill
               style={{ objectFit: 'cover' }}
@@ -62,7 +62,7 @@ export default function Home() {
           </a>
           <a className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64" href="https://github.com/jessicaluong/Chess">
             <Image
-              src="/chess.png"
+              src="./chess.png"
               alt="Chess Image"
               fill
               style={{ objectFit: 'cover' }}
