@@ -3,10 +3,10 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 export default function Home() {
   return (
-    <main className="container mx-auto p-24 flex flex-col gap-10 items-center">
+    <main className="container mx-auto px-10 py-5 md:p-24 flex flex-col gap-3 md:gap-10 items-center">
 
       {/* About section */}
-      <div className="flex flex-col gap-10 md:flex-row md:py-20 max-w-[700px]">
+      <div className="flex flex-col gap-5 md:gap-10 md:py-20 md:flex-row max-w-[700px]">
         <div className="md:w-1/3 my-auto">
           <div className="rounded-full overflow-hidden w-40 h-40 mx-auto">
             <Image
