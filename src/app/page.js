@@ -25,14 +25,12 @@ export default function Home() {
             <p>a <span className="text-cyan-700">software developer</span>.</p>
           </h1>
           <p className="text-sm md:text-base text-gray-600 mt-4 dark:text-gray-300">
-            I am passionate about solving complex challenges and committed to delivering 
-            impactful software solutions.
+            I am passionate about solving problems and delivering impactful software solutions.
           </p>
           <p className="text-sm md:text-base text-gray-600 mt-4 dark:text-gray-300">
-            Transitioning from nutritional science to computer science has enhanced my analytical 
-            skills and adaptability in dynamic tech environments. This journey highlights my 
-            commitment to continuous learning and my dedication to developing technologies that improve 
-            our daily lives.
+            As a person, I value adaptability and continuous improvement, and my transition 
+            from nutritional science to computer science has allowed me to 
+            tap into both of these values.
           </p>
           <div className="text-3xl md:text-4xl flex gap-5 py-3 text-cyan-700">
             <a href="https://github.com/jessicaluong"><AiFillGithub /></a>
@@ -57,7 +55,7 @@ export default function Home() {
             </div>
             <div className="absolute bottom-0 left-0 p-4 w-full bg-gradient-to-t from-black to-transparent">
               <h4 className="font-bold text-white">GestureGenius</h4>
-              <p className="text-gray-300">Python, Unity, AI</p>
+              <p className="text-gray-300">Python, Unity, ML</p>
             </div>
           </a>
           <a className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64" href="https://github.com/jessicaluong/Chess">
