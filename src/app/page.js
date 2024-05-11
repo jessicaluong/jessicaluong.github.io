@@ -28,9 +28,8 @@ export default function Home() {
             I am passionate about solving problems and delivering impactful software solutions.
           </p>
           <p className="text-sm md:text-base text-gray-600 mt-4 dark:text-gray-300">
-            As a person, I value adaptability and continuous improvement, and my transition 
-            from nutritional science to computer science has allowed me to 
-            tap into both of these values.
+            As a person, I value adaptability and continuous learning. My transition 
+            from nutritional science to computer science has allowed me to tap into both of these.
           </p>
           <div className="text-3xl md:text-4xl flex gap-5 py-3 text-cyan-700">
             <a href="https://github.com/jessicaluong"><AiFillGithub /></a>
