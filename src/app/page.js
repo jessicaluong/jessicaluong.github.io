@@ -42,10 +42,10 @@ export default function Home() {
       <div>
         <h1 className="text-xl font-bold mb-4 text-gray-800 dark:text-gray-200">Projects</h1>
         <div className="grid md:grid-cols-2 gap-5">
-          <a className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64" href="https://github.com/jessicaluong/CMPT419-Project">
+          <a className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64" href="https://github.com/jessicaluong/pacman-js">
             <Image
-              src="/gesture_genius.png"
-              alt="Gesture Genius Image"
+              src="/pacman.png"
+              alt="Pac-Man Game Image"
               fill
               style={{ objectFit: 'cover' }}
             />
@@ -53,8 +53,8 @@ export default function Home() {
               <span className="text-white text-lg font-semibold opacity-0 group-hover:opacity-100">View Code</span>
             </div>
             <div className="absolute bottom-0 left-0 p-4 w-full bg-gradient-to-t from-black to-transparent">
-              <h4 className="font-bold text-white">GestureGenius</h4>
-              <p className="text-gray-300">Python, Unity, ML</p>
+              <h4 className="font-bold text-white">Pac-Man</h4>
+              <p className="text-gray-300">JavaScript</p>
             </div>
           </a>
           <a className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64" href="https://github.com/jessicaluong/Chess">
