@@ -56,7 +56,7 @@ export default function Home() {
             title="Virtual Agent"
             imageSrc="./virtual_agent.png"
             link="https://github.com/jessicaluong/virtual-agent"
-            description="Python, Unity, C#, ML, WebSockets, TCP"
+            description="Python, Unity, C#, ML, WebSocket, TCP"
           />
           <ProjectCard
             title="Fitness Calendar"
