@@ -8,14 +8,17 @@ export default function Home() {
       {/* About section */}
       <div className="flex flex-col gap-5 md:gap-10 md:pt-20 md:flex-row max-w-[700px]">
         <div className="md:w-1/3 my-auto">
-          <div className="rounded-full overflow-hidden w-40 h-40 mx-auto">
+          <div className="rounded-full overflow-hidden w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 mx-auto">
             <Image
               className="rounded-lg shadow-md"
-              src="/photo.png"
+              src="/portrait.png"
               alt="Me"
-              width={160}
-              height={160}
+              width={192}
+              height={192}
               priority
+              style={{
+                transform: "scale(1.6) translateY(-5px) translateX(3px)",
+              }}
             />
           </div>
         </div>
