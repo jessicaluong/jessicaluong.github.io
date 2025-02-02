@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ProjectCard({ title, imageSrc, link, description }) {
   return (
     <a
-      className="group border rounded-lg p-4 overflow-hidden relative block w-64 h-64"
+      className="group rounded-2xl p-4 overflow-hidden relative block w-64 h-64"
       href={link}
     >
       <Image
