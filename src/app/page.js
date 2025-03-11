@@ -56,6 +56,12 @@ export default function Home() {
         </h1>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           <ProjectCard
+            title="Grocery Price Tracker"
+            imageSrc="./price_tracker.png"
+            link="https://github.com/jessicaluong/grocery-price-tracker"
+            description="Next.js, PostgreSQL, Prisma ORM, TypeScript"
+          />
+          <ProjectCard
             title="Virtual Agent"
             imageSrc="./virtual_agent.png"
             link="https://github.com/jessicaluong/virtual-agent"
