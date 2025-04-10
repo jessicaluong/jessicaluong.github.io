@@ -57,7 +57,7 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           <ProjectCard
             title="Grocery Price Tracker"
-            imageSrc="./price_tracker.png"
+            imageSrc="./grocery-price-tracker.png"
             link="https://github.com/jessicaluong/grocery-price-tracker"
             description="Next.js, PostgreSQL, Prisma ORM, TypeScript"
           />
