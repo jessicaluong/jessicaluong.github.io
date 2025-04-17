@@ -2,23 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Default light mode colors */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
+  --foreground-rgb: 11, 16, 20;
+  --background-rgb: 231, 237, 243;
+  --primary: 43, 71, 94;
+  --secondary: 148, 178, 209;
+  --accent: 61, 111, 158;
 }
 
-/* Dark mode colors */
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 30, 30, 30;
+    --foreground-rgb: 235, 240, 244;
+    --background-rgb: 12, 18, 24;
+    --primary: 161, 189, 212;
+    --secondary: 46, 76, 107;
+    --accent: 97, 147, 194;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb)); 
+  background: rgb(var(--background-rgb));
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.05em;
 }
 
 @layer utilities {

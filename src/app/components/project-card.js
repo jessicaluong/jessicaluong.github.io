@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ProjectCard({ title, imageSrc, link, description }) {
   return (
     <a
-      className="group rounded-2xl p-4 overflow-hidden relative block w-64 h-64"
+      className="group rounded-2xl p-4 overflow-hidden relative block w-64 h-64 transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-2xl"
       href={link}
     >
       <Image
@@ -19,7 +19,7 @@ export default function ProjectCard({ title, imageSrc, link, description }) {
       </div>
       <div className="absolute bottom-0 left-0 p-4 w-full bg-gradient-to-t from-black to-transparent">
         <h4 className="font-bold text-white">{title}</h4>
-        <p className="text-gray-300">{description}</p>
+        <p className="text-gray-300 ">{description}</p>
       </div>
     </a>
   );
