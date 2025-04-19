@@ -38,8 +38,8 @@ export default function ProjectCard({
           View Code
         </span>
       </div>
-      <div className="absolute bottom-0 left-0 p-3 h-24 w-full bg-gradient-to-t from-black to-transparent">
-        <h4 className="font-bold text-white text-shadow">{title}</h4>
+      <div className="absolute bottom-0 left-0 p-3 h-24 w-full bg-bg-90 dark:bg-gray-800/90">
+        <h4 className="font-bold dark:text-white dark:text-shadow">{title}</h4>
         <div className="flex flex-wrap gap-1 mt-1">
           {description.split(", ").map((tech) => (
             <span

@@ -29,6 +29,9 @@
 .bg-accent-70 {
   background-color: rgba(var(--accent), 0.7);
 }
+.bg-bg-90 {
+  background-color: rgba(var(--background-rgb), 0.9);
+}
 
 body {
   color: rgb(var(--foreground-rgb));
