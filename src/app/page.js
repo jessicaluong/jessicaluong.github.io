@@ -22,10 +22,8 @@ export default function Home() {
       <div className="flex flex-col gap-5 md:gap-10 md:pt-20 md:flex-row max-w-[700px] text-center md:text-left">
         <div className="md:w-1/3 my-auto">
           <div
-            className={`rounded-full overflow-hidden w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 mx-auto transition-all duration-700 ease-out ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
+            className={`rounded-full overflow-hidden w-36 h-36 sm:w-44 sm:h-44 lg:w-48 lg:h-48 mx-auto fade-up ${
+              isVisible ? "visible" : ""
             }`}
           >
             <Image
@@ -43,10 +41,8 @@ export default function Home() {
         </div>
         <div className="md:w-2/3 max-w-xs sm:max-w-sm">
           <h1
-            className={`text-xl sm:text-2xl font-bold transition-all duration-700 ease-out ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
+            className={`text-xl sm:text-2xl font-bold fade-up ${
+              isVisible ? "visible" : ""
             }`}
             style={{ transitionDelay: "50ms" }}
           >
@@ -58,20 +54,16 @@ export default function Home() {
             </p>
           </h1>
           <p
-            className={`text-sm sm:text-base mt-4 transition-all duration-700 ease-out ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
+            className={`text-sm sm:text-base mt-4 fade-up ${
+              isVisible ? "visible" : ""
             }`}
             style={{ transitionDelay: "120ms" }}
           >
             I am passionate about solving problems and building solutions.
           </p>
           <p
-            className={`text-sm sm:text-base mt-4 transition-all duration-700 ease-out ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
+            className={`text-sm sm:text-base mt-4 fade-up ${
+              isVisible ? "visible" : ""
             }`}
             style={{ transitionDelay: "180ms" }}
           >
@@ -104,8 +96,8 @@ export default function Home() {
       {/* Projects section */}
       <div>
         <h1
-          className={`text-xl sm:text-2xl font-bold mb-4 transition-all duration-700 ease-out ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          className={`text-xl sm:text-2xl font-bold mb-4 fade-up ${
+            isVisible ? "visible" : ""
           }`}
           style={{ transitionDelay: "300ms" }}
         >

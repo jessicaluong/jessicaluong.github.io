@@ -26,8 +26,8 @@
   }
 }
 
-.bg-accent-50 {
-  background-color: rgba(var(--accent), 0.5);
+.bg-accent-70 {
+  background-color: rgba(var(--accent), 0.7);
 }
 
 body {
@@ -46,4 +46,16 @@ h4 {
 
 .text-shadow {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fade-up {
+  @apply transition-all duration-700 ease-out;
+}
+
+.fade-up.visible {
+  @apply opacity-100 translate-y-0;
+}
+
+.fade-up:not(.visible) {
+  @apply opacity-0 translate-y-8;
 }
