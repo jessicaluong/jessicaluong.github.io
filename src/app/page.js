@@ -47,7 +47,7 @@ export default function Home() {
             style={{ transitionDelay: "50ms" }}
           >
             <p>
-              Hi I'm <span className="italic">Jessica Luong</span>,
+              Hi, I'm <span className="italic">Jessica Luong</span>,
             </p>
             <p>
               a <span className="text-accent">software engineer</span>.
@@ -109,7 +109,7 @@ export default function Home() {
             title="Grocery Price Tracker"
             imageSrc="./grocery-price-tracker.png"
             link="https://github.com/jessicaluong/grocery-price-tracker"
-            description="Next.js, PostgreSQL, Prisma ORM, TypeScript"
+            description="Next.js, TypeScript, PostgreSQL, Prisma ORM"
           />
           <ProjectCard
             index={1}
