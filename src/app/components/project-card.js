@@ -33,11 +33,7 @@ export default function ProjectCard({
         fill
         style={{ objectFit: "cover" }}
       />
-      <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 flex justify-center items-center transition-opacity duration-300 ease-in-out ">
-        <span className="text-white opacity-0 group-hover:opacity-100">
-          View Code
-        </span>
-      </div>
+      <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 flex justify-center py-24 transition-opacity duration-300 ease-in-out "></div>
       <div className="absolute bottom-0 left-0 p-3 h-24 w-full bg-bg-90 dark:bg-gray-800/90">
         <h4 className="font-bold dark:text-white dark:text-shadow">{title}</h4>
         <div className="flex flex-wrap gap-1 mt-1">
