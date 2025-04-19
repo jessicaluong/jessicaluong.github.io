@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} ${roboto.className}`}>
         {children}
-      </body>{" "}
+      </body>
     </html>
   );
 }
