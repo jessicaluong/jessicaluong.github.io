@@ -39,7 +39,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="md:w-2/3 max-w-xs sm:max-w-sm">
+        <div className="md:w-2/3 max-w-xs sm:max-w-sm md:max-w-md">
           <h1
             className={`text-xl sm:text-2xl font-bold fade-up ${
               isVisible ? "visible" : ""
@@ -53,13 +53,23 @@ export default function Home() {
               a <span className="text-accent">software engineer</span>.
             </p>
           </h1>
+          <div
+            className={`inline-flex items-center bg-white dark:bg-gray-800 rounded-full px-3 py-1 text-xs mt-4 fade-up ${
+              isVisible ? "visible" : ""
+            }`}
+            style={{ transitionDelay: "60ms" }}
+          >
+            <span className="mr-1">📍</span> Vancouver, BC, Canada
+          </div>
+
           <p
             className={`text-sm sm:text-base mt-4 fade-up ${
               isVisible ? "visible" : ""
             }`}
             style={{ transitionDelay: "120ms" }}
           >
-            I am passionate about solving problems and building solutions.
+            Computer Science graduate with internship experience in backend
+            development.
           </p>
           <p
             className={`text-sm sm:text-base mt-4 fade-up ${
@@ -67,7 +77,8 @@ export default function Home() {
             }`}
             style={{ transitionDelay: "180ms" }}
           >
-            As a person, I value opportunities to learn and collaborate.
+            For the past year, I've been building full-stack applications to
+            deliver complete software solutions.
           </p>
           <div
             className={`text-3xl sm:text-4xl flex gap-5 py-3 text-accent justify-center md:justify-start transition-all duration-700 ease-out ${
@@ -103,7 +114,7 @@ export default function Home() {
         >
           Projects
         </h1>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProjectCard
             index={0}
             title="Grocery Price Tracker"
