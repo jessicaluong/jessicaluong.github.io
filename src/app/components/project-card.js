@@ -26,6 +26,8 @@ export default function ProjectCard({
         isVisible ? "visible" : ""
       }`}
       href={link}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <Image
         src={imageSrc}

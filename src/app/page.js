@@ -91,12 +91,16 @@ export default function Home() {
             <a
               href="https://github.com/jessicaluong"
               className="hover:scale-110 transition-transform duration-200 hover:text-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <AiFillGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/jessica-luong/"
               className="hover:scale-110 transition-transform duration-200 hover:text-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <AiFillLinkedin />
             </a>
