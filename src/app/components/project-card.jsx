@@ -1,24 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import useFadeIn from "../hooks/fade-in";
 
 export default function ProjectCard({
   title,
   imageSrc,
   link,
   description,
-  index = 0,
+  index = 1,
 }) {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 350 + index * 100);
-
-    return () => clearTimeout(timer);
-  }, [index]);
+  const isVisible = useFadeIn(350, index, 100);
 
   return (
     <a
