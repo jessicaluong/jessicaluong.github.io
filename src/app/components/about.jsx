@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import useFadeIn from "../hooks/fade-in";
 
@@ -15,13 +14,13 @@ export default function About() {
             isVisible ? "visible" : ""
           }`}
         >
-          <Image
+          <img
             className="rounded-lg shadow-md"
             src="/portrait.png"
             alt="Me"
             width={192}
             height={192}
-            priority
+            loading="eager"
             style={{
               transform: "scale(1.6) translateY(-5px) translateX(3px)",
             }}

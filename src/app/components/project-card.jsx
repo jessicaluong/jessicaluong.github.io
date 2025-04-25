@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import useFadeIn from "../hooks/fade-in";
 
 export default function ProjectCard({
@@ -21,11 +20,11 @@ export default function ProjectCard({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Image
+      <img
         src={imageSrc}
         alt={`${title} Image`}
-        fill
-        style={{ objectFit: "cover" }}
+        className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
       />
       <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 flex justify-center py-24 transition-opacity duration-300 ease-in-out "></div>
       <div className="absolute bottom-0 left-0 p-3 h-24 w-full bg-bg-90 dark:bg-gray-800/90">
